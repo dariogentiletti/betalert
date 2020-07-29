@@ -9,11 +9,12 @@ The current version of BetAlert only provides notifications from *Soccer-Rating.
 ```
 * requests
 * re
-* notify2 *(for Ubuntu version)*
-* win10toast *(for Windows version)*
+* notify2 **(only for Ubuntu version)**
+* win10toast **(only for Windows version)**
 * BeautifulSoup
 * time
-* sys 
+* sys
+* pyinstaller 
 ```
 
 # Installation:
@@ -36,8 +37,10 @@ tipsters_url = { "name of the tipster" : "URL of the tipster from http://www.soc
 ## Windows 10:
 * Clone the repo (or click Download on the top right of the main page)
 * Navigate in the folder that matches your OS (*windows*)
-* Open the folder 'dist'
-* Launch the executable file
+* Open terminal in that directory
+* Type in the terminal `pyinstaller --onefile betalert_win.py`
+
+Now you can execute the program launching the executable file located in the *dist* folder.
 
 #### (Optional, to add tipsters you want to be notified of)
 

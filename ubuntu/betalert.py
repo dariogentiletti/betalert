@@ -1,7 +1,7 @@
 ######################################################################
 ######################################################################
 ##
-##                      BETALERT v0.2
+##                      BETALERT v0.3
 ##        (https://github.com/dariogentiletti/betalert)
 ##
 ##       Soccer-rating.com webscraper for Tipster bets 
@@ -145,7 +145,7 @@ def betAlerts(dic_data):
             # Activate when debugging
             #print("START IF LOOP FOR TIPSTER:{} \n  TEMP:{} \n DICT: {}".format(tipster, temp, data))
 
-            if len(temp[0])<2: # To check if there is no bet of the day
+            if not temp: # To check if there is no bet of the day
                 print("No bets of the day from the tipster {}.".format(tipster))
                 print("---------------------------")
                 continue
@@ -181,6 +181,10 @@ def betAlerts(dic_data):
 
 
 
+#################################################################################################
+#################################################################################################
+#################################################################################################
+#################################################################################################
 
 
 def main():
