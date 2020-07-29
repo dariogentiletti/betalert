@@ -7,14 +7,15 @@ The purpose of this software is to provide an advanced notification system on yo
 The current version of BetAlert only provides notifications from *Soccer-Rating.com*'s tipster pages.
 # Requirements:
 ```
-* requests
-* re
-* notify2 **(only for Ubuntu version)**
-* win10toast **(only for Windows version)**
-* BeautifulSoup
-* time
-* sys
-* pyinstaller 
+- python3
+- requests
+- re
+- notify2 **(only for Ubuntu version)**
+- win10toast **(only for Windows version)**
+- BeautifulSoup
+- time
+- sys
+- pyinstaller 
 ```
 
 # Installation:
