@@ -1,4 +1,4 @@
-# BetAlert v0.2
+# BetAlert v0.3
 
 Welcome to **BetAlert** -- please make sure you look at the license before using this repository.
 
